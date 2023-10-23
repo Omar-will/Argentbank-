@@ -1,0 +1,293 @@
+{   
+    "accounts": [
+        {
+            "id": "bar1",
+            "accountId": "1478moi2124tyunbcxt7piutw-18319",
+            "title": "Argent Bank Checking (x8349)",
+            "amount": "$2,082.79",
+            "description": "Available Balance",
+            "transactions": [
+                {
+                    "transactionID": "q6w5e4r3t2y1u0",
+                    "date": "2023-10-01T22:10:00.7412",
+                    "description": "Golden Sun Bakery",
+                    "amount": "$-8.00",
+                    "balance": "$2,090.79",
+                    "type": "Cash",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "s7t6u5v4w3x2y1",
+                    "date": "2023-10-02T08:00:00.8796",
+                    "description": "Convenience Store",
+                    "amount": "$-298.00",
+                    "balance": "$2,388.79",
+                    "type": "Electronic",
+                    "category": "Groceries",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "e0d9c8b7a6z5x4",
+                    "date": "2023-10-03T23:42:00.1290",
+                    "description": "Farmers Market",
+                    "amount": "$-45.00",
+                    "balance": "$2,433.79",
+                    "type": "Cash",
+                    "category": "Electronic",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "l1m9n8o7p6q5r4",
+                    "date": "2023-10-04T01:06:00.3601",
+                    "description": "Bookstore",
+                    "amount": "$-4.50",
+                    "balance": "$2,438.29",
+                    "type": "Card Payment",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "e5f6g7h8i9b1c2d3",
+                    "date": "2023-10-07T17:50:40.0017",
+                    "description": " Beauty Supply Store",
+                    "amount": "$-85.00",
+                    "balance": "$2,523.29",
+                    "type": "Card Payment",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "p8o7i6u5y4t3r2",
+                    "date": "2023-10-08T12:30:40.592Z",
+                    "description": " Electronics Store",
+                    "amount": "$-40.00",
+                    "balance": "$2,563.29",
+                    "type": "Cash",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "d7c6b5a4z3y2x1",
+                    "date": "2023-10-11T08:47:00.1247",
+                    "description": "Flower Shop",
+                    "amount": "$-75.00",
+                    "balance": "$2,638.29",
+                    "type": "Card Payment",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "k5j4i3h2g1f9e8",
+                    "date": "2023-10-12T13:05:00.7439",
+                    "description": " Convenience Store",
+                    "amount": "$-120.00",
+                    "balance": "$2,758.29",
+                    "type": "Electronic",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "r3q2p1o9n8m7l6",
+                    "date": "2023-10-15T23:01:00.0287",
+                    "description": "Toy Store",
+                    "amount": "$-4.50",
+                    "balance": "$2,762.79",
+                    "type": "Card Payment",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "z0y9x8w7v6u5t4",
+                    "date": "2023-10-16T22:22:00.7531",
+                    "description": "Mini-Mart",
+                    "amount": "$-65.00",
+                    "balance": "$2,827.79",
+                    "type": "Card Payment",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                }
+            ]
+        },
+          
+        {
+            "id": "bar2",
+            "accountId": "1Z22ADN7yre1xtr2m1449t78-j4587",
+            "title": "Argent Bank Savings (x6712)",
+            "amount": "$10,928.42",
+            "description": "Available Balance",
+            "transactions": [
+                {
+                    "transactionID": "jmknlbmbn0lyp7qlr1",
+                    "date": "2023-10-01T08:30:00.7410",
+                    "description": "Online Deposit",
+                    "amount": "$500.00",
+                    "balance": "$11,428.42",
+                    "type": "Electronic",
+                    "category": "Deposit",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "k2l3m4n5o6p7q8r9j",
+                    "date": "2023-10-02T14:15:30.1298",
+                    "description": "Interest Payment",
+                    "amount": "$12.42",
+                    "balance": "$11,440.84",
+                    "type": "Interest",
+                    "category": "Income",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "l3m4n5o6p7q0r1k1",
+                    "date": "2023-10-03T09:45:20.3671",
+                    "description": "Withdrawal ATM",
+                    "amount": "$-100.00",
+                    "balance": "$11,340.84",
+                    "type": "Cash",
+                    "category": "Withdrawal",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "m4n5o6p7q8r9k1l2",
+                    "date": "2023-10-05T08:11:00.2400",
+                    "description": "Online Transfer",
+                    "amount": "$-300.00",
+                    "balance": "$11,640.84",
+                    "type": "Electronic",
+                    "category": "Transfer",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "n5o6p7q8r9k1l2m3",
+                    "date": "2023-10-07T11:30:40.5923",
+                    "description": " Toy Store",
+                    "amount": "$-40.00",
+                    "balance": "$11,680.84",
+                    "type": " Cash",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "o6p7q8r9k1l2m3n4",
+                    "date": "2023-10-12T17:22:15.7507",
+                    "description": "Electronics Store",
+                    "amount": "$-75.00",
+                    "balance": "$11,755.84",
+                    "type": "Card Payment",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                }
+            ]
+        },
+        
+        {
+            "id": "bar3",
+            "accountId": "QAr74o55414tpir777789456-74258",
+            "title": "Argent Bank Credit Card (x8349)",
+            "amount": "$184.30",
+            "description": "Current Balance",
+            "transactions": [
+                {
+                    "transactionID": "v0u9t8s7r6q5p4",
+                    "date": "2023-10-01T08:30:00.0007",
+                    "description": "Convenience Store",
+                    "amount": "$-8.00",
+                    "balance": "$176.30",
+                    "type": "Electronic",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "j5k4l3m2n1o9p8",
+                    "date": "2023-10-02T14:15:30.1290",
+                    "description": "Beauty Supply Store",
+                    "amount": "$-298.00",
+                    "balance": "$-121.70",
+                    "type": "Electronic",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "l3m4n5o6p7q8r9k1",
+                    "date": "2023-10-03T09:00:10.3671",
+                    "description": "Mini-Mart",
+                    "amount": "$-45.00",
+                    "balance": "$-76.70",
+                    "type": "Store",
+                    "category": "Transportation",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "y7x6w5v4u3t2s1",
+                    "date": "2023-10-05T08:08:50.0005",
+                    "description": "Flower Shop",
+                    "amount": "$-4.50",
+                    "balance": "$-72.20",
+                    "type": "Card Payment",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "o0n9m8l7k6j5i4",
+                    "date": "2023-10-07T11:30:40.5922",
+                    "description": "Golden Sun Bakery",
+                    "amount": "$-85.00",
+                    "balance": "$-157.20",
+                    "type": "Electronic",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "h1g9f8e7d6c5b4",
+                    "date": "2023-10-12T11:20:25.8995",
+                    "description": "Bookstore",
+                    "amount": "$-75.00",
+                    "balance": "$-197.20",
+                    "type": "Cash",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "u4v3w2x1y0z9a8",
+                    "date": "2023-10-14T09:30:00.0041",
+                    "description": "Farmers Market",
+                    "amount": "$-50.00",
+                    "balance": "$-247.20",
+                    "type": "Card Payment",
+                    "category": "Food",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "q7r6s5t4u3v2w1",
+                    "date": "2023-10-15T12:45:30.8777",
+                    "description": "Beauty Supply Store",
+                    "amount": "$-25.00",
+                    "balance": "$-272.20",
+                    "type": "Card Payment",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "c8b7a6z5x4y3h2",
+                    "date": "2023-10-16T11:11:10.0727",
+                    "description": "Toy Store",
+                    "amount": "$-4.00",
+                    "balance": "$-276.20",
+                    "type": "Card Payment",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                },
+                {
+                    "transactionID": "i1j9k8l7m6n5o4",
+                    "date": "2023-10-17T14:00:40.1234",
+                    "description": "Electronics Store",
+                    "amount": "$-60.00",
+                    "balance": "$-336.20",
+                    "type": "Electronic",
+                    "category": "Shopping",
+                    "note": "Lorem ipsum"
+                }
+            ]
+        }  
+    ]
+}

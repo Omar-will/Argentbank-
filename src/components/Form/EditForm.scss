@@ -1,0 +1,21 @@
+.UserSettings {
+    input[type="text"] {
+        padding: 8px;
+        margin: 10px 14px;
+        &:disabled {
+            margin-left: 20px;
+        }
+    }
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+            border-radius: 4px;
+            margin: 30px 5px;
+            min-width: 140px;
+            height: 45px;
+        }
+    }
+}
+
