@@ -14,7 +14,7 @@ function EditForm({ onClose }) {
     const firstName = useSelector(selectFirstName);
     const lastName = useSelector(selectLastName);
     const [newUserName, setNewUserName] = useState("");
-    const [isUsernameUpdated, setIsUsernameUpdated] = useState(false); // État pour suivre si le nom d'utilisateur a été mis à jour
+    const [isUsernameUpdated, setIsUsernameUpdated] = useState(false); 
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -25,8 +25,8 @@ function EditForm({ onClose }) {
         const updatedUserName = { userName: newUserName };
         dispatch(updateProfile(token, updatedUserName))
             .then(() => {
-                setIsUsernameUpdated(true); // Mettez à jour l'état lorsque le nom d'utilisateur est modifié
-                alert("Username updated successfully!"); // Ajoutez une alerte de réussite
+                setIsUsernameUpdated(true); 
+                alert("Username updated successfully!"); 
                 navigate("/user");
                 onClose();
             })
@@ -47,7 +47,7 @@ function EditForm({ onClose }) {
                 Edit user info
                 <br />
             </h1>
-            {isUsernameUpdated && ( // Afficher l'alerte si le nom d'utilisateur a été mis à jour
+            {isUsernameUpdated && (
                 <div className="alert alert-success">
                     Username updated successfully!
                 </div>

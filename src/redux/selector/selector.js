@@ -1,9 +1,14 @@
-export const selectAuth = (state) => state.users.isAuth;
-export const selectIsLoading = (state) => state.users.isLoading;
-export const selectStatus = (state) => state.users.status;
-export const selectToken = (state) => state.users.token;
-export const selectUserData = (state) => state.users.userData;
-export const selectUserName = (state) => selectUserData(state).userName;
-export const selectFirstName = (state) => selectUserData(state).firstName;
-export const selectLastName = (state) => selectUserData(state).lastName;
-export const selectError = (state) => state.users.error;
+import { createSelector } from "@reduxjs/toolkit";
+
+const selectUsers = (state) => state.users;
+
+export const selectAuth = createSelector(selectUsers, (users) => users.isAuth);
+export const selectIsLoading = createSelector(selectUsers, (users) => users.isLoading);
+export const selectStatus = createSelector(selectUsers, (users) => users.status);
+export const selectToken = createSelector(selectUsers, (users) => users.token);
+export const selectUserData = createSelector(selectUsers, (users) => users.userData);
+export const selectUserName = createSelector(selectUserData, (userData) => userData?.userName);
+export const selectFirstName = createSelector(selectUserData, (userData) => userData?.firstName);
+export const selectLastName = createSelector(selectUserData, (userData) => userData?.lastName);
+export const selectError = createSelector(selectUsers, (users) => users.error);
+
